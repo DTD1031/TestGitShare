@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3D96003B2D0E15CF1CC28B51CCB6DE27 /* TestGitShare-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D89E24256D9D1C1C8A451AE3CE2C0E /* TestGitShare-dummy.m */; };
 		495FB53F3ED3449EEEED9A8A5EFAB12E /* Pods-TestGitShare_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ADD89E92C93902A715AE600D929BC21 /* Pods-TestGitShare_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C0D5FA62483A72400A6D25C /* goodRepoTestObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0D5FA42483A72400A6D25C /* goodRepoTestObject.h */; };
+		7C0D5FA72483A72400A6D25C /* goodRepoTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0D5FA52483A72400A6D25C /* goodRepoTestObject.m */; };
 		A8638274762B610D405DB632460B8F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B034A554E71D1D0FBC5037072A79FEAD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 83D7389ED4053FF7EDB9D129D63C235E /* ReplaceMe.m */; };
 		B268F8A3A6B83A4A7967B3CF8322A4FB /* Pods-TestGitShare_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0F5379C6CCEBDB3176A4828A4D9F87 /* Pods-TestGitShare_Tests-dummy.m */; };
@@ -31,19 +33,21 @@
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FAB44AA72EC8B8804035BE46117EAD0 /* Pods-TestGitShare_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestGitShare_Tests.modulemap"; sourceTree = "<group>"; };
 		472F5CD2EA360E7C930D94187C286C34 /* Pods-TestGitShare_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestGitShare_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		56CAA8557126AE5C9553D1D63DBF93E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		56CAA8557126AE5C9553D1D63DBF93E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		597F828A4FA0042FB394FAB0E199A0D0 /* TestGitShare.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TestGitShare.modulemap; sourceTree = "<group>"; };
-		5E05FF1DEC8D674BB6A51A4207153CE7 /* Pods_TestGitShare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestGitShare_Tests.framework; path = "Pods-TestGitShare_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EC2346A3CF1E12CBFEEA9F8C7F93AE5 /* TestGitShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TestGitShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E05FF1DEC8D674BB6A51A4207153CE7 /* Pods_TestGitShare_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestGitShare_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC2346A3CF1E12CBFEEA9F8C7F93AE5 /* TestGitShare.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TestGitShare.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		63FA4C8E4920569D6558F5CAA60F557F /* Pods-TestGitShare_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestGitShare_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		64D52EAE63100BCBB030E59DFA13FAC4 /* TestGitShare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestGitShare.debug.xcconfig; sourceTree = "<group>"; };
 		6A5D85EAF6D563791825DA7542203784 /* Pods-TestGitShare_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestGitShare_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7ADD89E92C93902A715AE600D929BC21 /* Pods-TestGitShare_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestGitShare_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C0D5FA42483A72400A6D25C /* goodRepoTestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goodRepoTestObject.h; sourceTree = "<group>"; };
+		7C0D5FA52483A72400A6D25C /* goodRepoTestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goodRepoTestObject.m; sourceTree = "<group>"; };
 		83D7389ED4053FF7EDB9D129D63C235E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TestGitShare/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		85704F2AD94E6EBE0533EB39357FCD6C /* TestGitShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TestGitShare.framework; path = TestGitShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9127745CF944EFB18742831999F15B8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		85704F2AD94E6EBE0533EB39357FCD6C /* TestGitShare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestGitShare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9127745CF944EFB18742831999F15B8F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		93D89E24256D9D1C1C8A451AE3CE2C0E /* TestGitShare-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TestGitShare-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFFD833BF230115E1AEAE8AAB15235D6 /* Pods-TestGitShare_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestGitShare_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B0C8A08C423F9E71AF7D3E36FBD63986 /* TestGitShare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TestGitShare.release.xcconfig; sourceTree = "<group>"; };
 		B8ED76EE06F5172AE0A6E5A94904945E /* TestGitShare-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TestGitShare-umbrella.h"; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				83D7389ED4053FF7EDB9D129D63C235E /* ReplaceMe.m */,
+				7C0D5FA42483A72400A6D25C /* goodRepoTestObject.h */,
+				7C0D5FA52483A72400A6D25C /* goodRepoTestObject.m */,
 				2174FC8432701EB1134FA96AAEDB25E3 /* Pod */,
 				BEDECA3E8538BA75EFE71FE88BAF7814 /* Support Files */,
 			);
@@ -185,6 +191,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0D5FA62483A72400A6D25C /* goodRepoTestObject.h in Headers */,
 				C309D3655CA93495BEEFBB271F10F39A /* TestGitShare-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +296,7 @@
 			files = (
 				B034A554E71D1D0FBC5037072A79FEAD /* ReplaceMe.m in Sources */,
 				3D96003B2D0E15CF1CC28B51CCB6DE27 /* TestGitShare-dummy.m in Sources */,
+				7C0D5FA72483A72400A6D25C /* goodRepoTestObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +438,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
