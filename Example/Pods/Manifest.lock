@@ -1,0 +1,16 @@
+PODS:
+  - TestGitShare (0.1.0)
+
+DEPENDENCIES:
+  - TestGitShare (from `../`)
+
+EXTERNAL SOURCES:
+  TestGitShare:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestGitShare: 4471d9c463eba39a5b8c870fca5b864baaadfa52
+
+PODFILE CHECKSUM: 3e5552a9da7ce09e9c068e65d5f5902ad32ab1dd
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,6 @@
+framework module TestGitShare {
+  umbrella header "TestGitShare-umbrella.h"
+
+  export *
+  module * { export * }
+}
