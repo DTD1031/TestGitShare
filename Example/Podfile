@@ -1,0 +1,6 @@
+use_frameworks!
+target 'TestGitShare_Tests' do
+  pod 'TestGitShare', :path => '../'
+  
+  
+end
